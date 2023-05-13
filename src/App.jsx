@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <div className="p-5">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/REST-countries" element={<Home />} />
           <Route path="/region/:region" element={<Regiones />} />
           <Route path="/pais/:nombre" element={<Pais />} />
         </Routes>
